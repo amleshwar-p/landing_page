@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* font-family: 'Architects Daughter', cursive; */
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(24, 24, 24);
+}
+
+.navbar {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin: auto;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: rgb(204, 204, 204);
+}
+.logo{
+    padding-left:40px ;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 36px;
+}
+.menu-btn{
+    display: none;
+}
+#click{
+    display: none;
+}
+.fa-bars{
+color: #fff;
+font-size: 20px;
+}
+
+/* banner */
+
+.banner {
+    background: url('/img/banner.jpg') no-repeat center;
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.black-filter {
+    height: 400px;
+    position: relative;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.content-banner {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+.heading-banner h2 {
+    color: white;
+    font-size: 3em;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.description-banner {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+.button-banner {
+    margin-top: 20px;
+}
+
+.btn-banner {
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: #000;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.4s ease;
+}
+
+/* content 1 */
+
+.content-1 {
+    background-color: #fff;
+    height: 40vh;
+}
+
+
+.content-1-container {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+}
+
+.content-1-description {
+    padding: 25px;
+}
+
+.content-1-heading {
+    text-align: center;
+}
+
+.content-1-container h1 {
+    font-weight: 700;
+    font-size: 29px;
+    color: rgb(0, 204, 255);
+}
+
+.content-1-container p {
+    max-width: 650px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(143, 142, 142);
+    font-size: 18px;
+}
+
+.content-1-btn {
+    padding-top: 30px;
+}
+
+.buy-btn {
+    background-color: rgb(34, 31, 33);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.buy-btn:hover {
+    background-color: rgb(56, 55, 56);
+    transition: 0.4s ease;
+}
+
+/* content 2 */
+
+.content-2 {
+    height: 65vh;
+    background-color: rgb(8, 155, 253);
+}
+
+.content-2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-2-header {
+    padding-top: 50px;
+}
+
+.content-2-header h1 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.content-2-content {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* Profiles */
+
+.profiles {
+    display: flex;
+}
+
+.profile {
+    padding: 0 20px;
+}
+
+.profile p {
+    color: #fff;
+    max-width: 240px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.profile-photo {
+    height: 250px;
+    padding: 0 20px;
+}
+
+.profile h3 {
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.profile h2 {
+    color: rgb(216, 216, 216);
+    font-size: 15px;
+    padding: 5px 0;
+    letter-spacing: 0.7px;
+}
+
+/* content 3 */
+
+.content-3 {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+}
+
+.content-3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-3-header {
+    color: rgb(0, 204, 255);
+    font-size: 29px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.blogs {
+    display: flex;
+    max-width: 700px;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+}
+
+.blog-img {
+    width: 250px;
+}
+
+.blog {
+    padding: 0 15px;
+}
+
+.blog .heading {
+    color: rgb(31, 31, 31);
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.blog p {
+    color: rgb(97, 97, 97);
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.btn-blog {
+    color: rgb(0, 204, 255);
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 204, 255);
+    background: transparent;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.btn-blog:hover {
+    background: rgba(0, 204, 255, 0.507);
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+
+/* contnet 4 */
+
+.content-4 {
+    background: rgb(8, 155, 253);
+    height: 25vh;
+}
+
+.content-4-container {
+    color: #fff;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.content-4-container h5 {
+    color: #000;
+}
+
+/* content 5 */
+
+.content-5 {
+    height: 65vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.img-box {
+    width: 210px;
+    padding: 0 10px;
+}
+
+.content-5-boxes {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 30px;
+    max-width: 800px;
+    align-items: center;
+    margin: auto;
+}
+
+.box-c5 {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.content-5-body {
+    margin-left: 10px;
+}
+
+#box2 {
+    flex-direction: row-reverse;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.content-5-body h3 {
+    color: rgb(42, 42, 42);
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.content-5-body p {
+    color: rgb(121, 121, 121);
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+/* content 6 */
+
+.content-6 {
+    background: rgb(24, 24, 24);
+    height: 200px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    color: #fff;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.first-row a {
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.first-row p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.fab {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+    transition: 0.5s ease;
+}
+
+.fa-instagram:hover {
+    background: -webkit-linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s ease;
+}
+
+.fa-twitter:hover {
+    color: rgb(8, 144, 255);
+    transition: 0.5s ease;
+}
+
+.fa-vk:hover {
+    color: rgb(53, 53, 119);
+    transition: 0.5s ease;
+}
+
+span {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    height: 2px;
+    background: rgb(119, 119, 119);
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    color: #fff;
+    margin: auto;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+}
+
+.second-row a {
+    color: rgb(0, 204, 255);
+}
+
+/* contact */
+

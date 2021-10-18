@@ -1,0 +1,107 @@
+@media (max-width:800px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: rgb(24, 24, 24);
+        height: 100vh;
+        width: 55%;
+        display: block;
+        transition: all 0.4s ease;
+        z-index: 3;
+    }
+    .menu-btn {
+        display: flex;
+        padding-right: 40px;
+        z-index: 4;
+    }
+    #click:checked~.menu-btn i::before {
+        content: "\f00d";
+        transition: all 0.3s ease;
+    }
+    #click:checked~.menu {
+        right: 0%;
+    }
+    .right-menu {
+        margin-top: 70px;
+    }
+    .navbar ul li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    /* banner */
+    .content-banner{
+        padding: 10px 10px;
+    }
+    .heading-banner h2{
+        font-size: 40px;
+    }
+    /* content 1 */
+    .content-1-container{
+        flex-direction: column;
+        height: 50vh;
+    }
+    .content-1-description{
+        padding: 20px;
+    }
+    .content-1{
+        height: 50vh;
+    }
+
+    @media (max-width:520px) {
+        .about-image img{
+            width: 120px;
+        }
+    }
+
+    /* content 2 */
+
+    .content-2{
+        height: 170vh;
+    }
+    .profiles{
+        flex-direction: column;
+    }
+    .profile{
+        padding: 20px 0;
+    }
+    /* content 3 */
+
+    @media (max-width:680px) {
+        .content-3{
+            height: 120vh;
+        }
+        .blogs{
+            flex-direction: column;
+            padding: 40px 20px;
+        }
+    }
+    /* content 5 */
+    @media (max-width:620px) {
+
+        .content-5{
+            height: 105vh;
+        }
+        .content-5-container{
+            display: flex;
+            height: 105vh;
+            align-items: center;
+        }
+        
+        .box-c5{
+            flex-direction: column;
+        }
+        #box2{
+            flex-direction: column;
+        }
+    }
+    /* content 6 */
+    .first-row{
+        flex-wrap: wrap;
+    }
+    .second-row p{
+        text-align: center;
+    }
+}
