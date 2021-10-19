@@ -63,7 +63,7 @@
 .fa-bars{
 color: #fff;
 font-size: 20px;
-}
+} 
 
 /* banner */
 
@@ -313,7 +313,7 @@ font-size: 20px;
 
 .content-4 {
     background: rgb(8, 155, 253);
-    height: 25vh;
+    height:200px ;
 }
 
 .content-4-container {
@@ -388,7 +388,7 @@ hr {
 
 .content-6 {
     background: rgb(24, 24, 24);
-    height: 200px;
+    height: 150px;
 }
 
 .first-row {
